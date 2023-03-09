@@ -1,0 +1,12 @@
+/* utils */
+@import './utils/variable';
+@import './utils/mixins';
+@import './utils/animation';
+
+/* base */
+@import './base/normalize';
+@import './base/base';
+
+/* layout */
+@import '../components/Layout/Header/header';
+@import '../components/Layout/Footer/footer';
