@@ -1,4 +1,4 @@
-/* display */
+/* affichage */
 
 @mixin flex-col {
   display: flex;
@@ -9,4 +9,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* effet de texte */
+
+@mixin no-list {
+  list-style-type: none;
 }
