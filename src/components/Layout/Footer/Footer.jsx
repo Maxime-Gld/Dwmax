@@ -1,11 +1,15 @@
 import React from 'react';
 
 const Footer = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return (
+    <div>
+      <ul>
+        <li>facebook</li>
+        <li>github</li>
+        <li>linkedin</li>
+      </ul>
+    </div>
+  );
 };
 
 export default Footer;
